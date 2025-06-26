@@ -256,6 +256,8 @@
 				DEVELOPMENT_TEAM = 7RPVG8UJGR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Leaf Leans needs camera access to identify plants";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Leaf Leans needs photo library access to select plant images";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +286,8 @@
 				DEVELOPMENT_TEAM = 7RPVG8UJGR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Leaf Leans needs camera access to identify plants";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Leaf Leans needs photo library access to select plant images";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
