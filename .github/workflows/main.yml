@@ -22,11 +22,11 @@ jobs:
           xcodebuild clean build \
           -project "Leaf Lens.xcodeproj" \
           -scheme "Leaf Lens" \
-          -destination 'platform=iOS Simulator,name=iPhone SE (3rd generation)'
+          -destination 'generic/platform=iOS Simulator'
 
       - name: Run Unit Tests
         run: |
           xcodebuild test \
           -project "Leaf Lens.xcodeproj" \
           -scheme "Leaf Lens" \
-          -destination 'platform=iOS Simulator,name=iPhone SE (3rd generation)'
+          -destination 'generic/platform=iOS Simulator'
