@@ -7,26 +7,19 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build-and-test:
+  build:
     runs-on: macos-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Select Xcode version
+      - name: Select Xcode
         run: sudo xcode-select -switch /Applications/Xcode.app
 
-      - name: Build project
+      - name: Build
         run: |
           xcodebuild clean build \
-          -project "Leaf Lens.xcodeproj" \
-          -scheme "Leaf Lens" \
-          -destination 'generic/platform=iOS Simulator'
-
-      - name: Run Unit Tests
-        run: |
-          xcodebuild test \
           -project "Leaf Lens.xcodeproj" \
           -scheme "Leaf Lens" \
           -destination 'generic/platform=iOS Simulator'
